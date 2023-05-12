@@ -25,7 +25,7 @@ spec:
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
   enableMetrics: true
-  replicas: 1
+  replicas: 2
   service:
     endpointType: https
   designerFlowsOperationMode: disabled
