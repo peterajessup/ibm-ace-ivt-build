@@ -12,10 +12,10 @@ spec:
         resources:
           limits:
             cpu: '0.5'
-            memory: 2Gi
+            memory: 1Gi
           requests:
             cpu: '0.5'
-            memory: 2Gi
+            memory: 1Gi
   version: 12.0.7.0-r2
   imagePullSecrets:
     name: default-dockercfg-kjxtv
@@ -25,7 +25,7 @@ spec:
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
   enableMetrics: true
-  replicas: 2
+  replicas: 1
   service:
     endpointType: https
   designerFlowsOperationMode: disabled
