@@ -24,7 +24,7 @@ spec:
     name: default-dockercfg-kjxtv
   license:
     accept: true
-    license: L-MJTK-WUU8HE
+    license: L-AWVV-J3WMK6
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
   enableMetrics: true
