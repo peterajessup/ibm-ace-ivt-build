@@ -1,0 +1,32 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: IntegrationRuntime
+metadata:
+  name: ir1
+  namespace: ace
+spec:
+  license:
+    accept: true
+    license: L-AWVV-J3WMK6
+    use: CloudPakForIntegrationNonProduction
+  telemetry:
+    tracing:
+      openTelemetry:
+        enabled: true
+  template:
+    spec:
+      containers:
+        - resources:
+            limits:
+            cpu: '0.5'
+            memory: 1Gi
+          requests:
+            cpu: '0.5'
+            memory: 1Gi
+          name: runtime
+  logFormat: basic
+  barURL:
+    - >-
+      https://db-01-quickstart-dash:3443/v1/directories/ivt2?73bdc033-8669-48b9-8c47-c7629120c0b6
+  configurations: ["mqpolicy", "key.jks", "kafkapolicy", "httpsconf", "scramparms", "es-cert-ace.jks"]
+  version: '12.0'
+  replicas: 1
