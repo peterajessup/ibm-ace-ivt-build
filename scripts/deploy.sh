@@ -17,4 +17,4 @@ bash -x createConfig.sh policyproject kafkapolicy config/eventstreamspolicyproje
 bash -x createConfig.sh policyproject mqpolicy config/MQPolicy.zip
 
 # oc apply -f yaml/AceIVT-IR.yaml
-oc apply -f aceIVTDeploy.yaml
+oc apply -f yaml/aceIVTDeploy.yaml
