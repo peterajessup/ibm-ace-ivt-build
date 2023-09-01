@@ -21,7 +21,7 @@ spec:
             memory: 1Gi
   version: 12.0.8.0-r3
   imagePullSecrets:
-    name: default-dockercfg-kjxtv
+    name: default-dockercfg-n8cz4
   license:
     accept: true
     license: L-AWVV-J3WMK6
