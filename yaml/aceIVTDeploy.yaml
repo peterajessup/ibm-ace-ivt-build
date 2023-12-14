@@ -19,7 +19,7 @@ spec:
           requests:
             cpu: '0.5'
             memory: 1Gi
-  #version: 12.0.8.0-r3
+  version: 12.0
   imagePullSecrets:
     name: default-dockercfg-n8cz4
   license:
