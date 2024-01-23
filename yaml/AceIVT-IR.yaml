@@ -24,9 +24,7 @@ spec:
             memory: 1Gi
           name: runtime
   logFormat: basic
-  barURL:
-    - >-
-      https://db-01-quickstart-dash:3443/v1/directories/Backend?8bd7a46f-4dcf-410a-b78a-3299f9065d08
+  barURL: 'https://db-01-quickstart-dash:3443/v1/directories/Backend?8bd7a46f-4dcf-410a-b78a-3299f9065d08'
   configurations: ["mqpolicy", "key.jks", "kafkapolicy", "httpsconf", "scramparms", "es-cert-ace.jks"]
   version: '12.0'
   replicas: 1
