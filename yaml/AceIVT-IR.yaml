@@ -1,5 +1,5 @@
 apiVersion: appconnect.ibm.com/v1beta1
-kind: IntegrationRuntime
+kind: IntegrationServer
 metadata:
   name: ir1
   namespace: ace
