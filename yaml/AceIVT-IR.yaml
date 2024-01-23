@@ -26,7 +26,7 @@ spec:
   logFormat: basic
   barURL:
     - >-
-      https://db-01-quickstart-dash.ace:3443/v1/directories/ivt2?73bdc033-8669-48b9-8c47-c7629120c0b6
+      https://db-01-quickstart-dash:3443/v1/directories/Backend?6b0f9d35-c4cf-41c3-a541-8c6beb47dda1
   configurations: ["mqpolicy", "key.jks", "kafkapolicy", "httpsconf", "scramparms", "es-cert-ace.jks"]
   version: '12.0'
   replicas: 1
