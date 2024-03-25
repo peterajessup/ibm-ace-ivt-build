@@ -6,6 +6,11 @@ metadata:
 spec:
   createDashboardUsers: true
   adminServerSecure: true
+  env:
+    - name: MQSI_OVERRIDE_HOSTNAME
+      value: ir1-is.ace.svc
+    - name: MQSI_OVERRIDE_HTTPS_PORT
+      value: 443
   license:
     accept: true
     license: L-KZVS-2G3FW4
