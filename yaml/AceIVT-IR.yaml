@@ -4,6 +4,8 @@ metadata:
   name: ir1
   namespace: ace
 spec:
+  createDashboardUsers: true
+  adminServerSecure: true
   license:
     accept: true
     license: L-KZVS-2G3FW4
